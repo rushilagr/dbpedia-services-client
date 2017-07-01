@@ -8,8 +8,8 @@ module Dbpedia
             Dbpedia::Services::Client.configuration.spotlight_url, 
             query: {
               text: text,
-              confidence: Dbpedia::Services::Client.configuration.spotlight_support,
-              support: Dbpedia::Services::Client.configuration.spotlight_confidence
+              confidence: Dbpedia::Services::Client.configuration.spotlight_confidence,
+              support: Dbpedia::Services::Client.configuration.spotlight_support
               },
             headers: {
               'Accept': 'application/json'

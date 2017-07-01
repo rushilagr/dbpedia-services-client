@@ -3,7 +3,7 @@ require "dbpedia/services/client/version"
 require "httparty"
 require "dbpedia"
 
-require 'dbpedia/services/client/dbpedia_gem_extensions.rb'
+require 'dbpedia/services/client/dbpedia_gem_extension.rb'
 require 'dbpedia/services/client/spotlight.rb'
 require 'dbpedia/services/client/keyword_and_prefix.rb'
 require 'dbpedia/services/client/display.rb'

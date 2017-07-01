@@ -9,6 +9,7 @@ module Dbpedia
           @spotlight_support = 0
           @spotlight_confidence = 0.1
         end
+      end
     end
   end
 end
