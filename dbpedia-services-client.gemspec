@@ -37,6 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "dbpedia", "~> 0.0.1"
   spec.add_dependency "httparty"
   spec.add_dependency 'httplog'
-  spec.add_dependency 'dotenv'
 
 end
