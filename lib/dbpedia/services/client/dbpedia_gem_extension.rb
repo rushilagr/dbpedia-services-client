@@ -15,8 +15,11 @@ end
 module DbpediaGemClientExtenstion
 	def initialize
 		super
-		if !DBPEDIA_KEYWORD_URL.nil? && !DBPEDIA_PREFIX_URL.nil?
-			search = {'keyword' => DBPEDIA_KEYWORD_URL, 'prefix' => DBPEDIA_PREFIX_URL}
+		if !DBPEDIA_LOOKUP_URL.nil?
+			search = {
+				'keyword' => DBPEDIA_LOOKUP_URL + '/KeywordSearch', 
+				'prefix' => DBPEDIA_LOOKUP_URL + '/PrefixSearch'
+			}
 			@uris = {'search' => search}
 		end
 		@uris
